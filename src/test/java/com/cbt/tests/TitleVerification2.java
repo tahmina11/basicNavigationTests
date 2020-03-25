@@ -13,41 +13,46 @@ public class TitleVerification2 {
                 "https://walmart.com)");
         WebDriver driver = BrowserFactory.getDriver("chrome");
         driver.get(urls.get(0));
-        Thread.sleep(2000);
+
         String title = driver.getTitle();
-       String url= driver.getCurrentUrl();
-
-       verifyContains(title, url);
-
-        driver.get(urls.get(1));
-        Thread.sleep(2000);
-      title = driver.getTitle();
-        url= driver.getCurrentUrl();
+        String url = driver.getCurrentUrl();
         verifyContains(title, url);
 
-        driver.get(urls.get(2));
-        Thread.sleep(2000);
+
+        driver.get(urls.get(1));
+
         title = driver.getTitle();
-        url= driver.getCurrentUrl();
+        url = driver.getCurrentUrl();
+        verifyContains(title, url);
+        driver.quit();
+
+        driver.get(urls.get(2));
+
+        title = driver.getTitle();
+        url = driver.getCurrentUrl();
         verifyContains(title, url);
 
         driver.get(urls.get(3));
-        Thread.sleep(2000);
-        title = driver.getTitle();
 
-        url= driver.getCurrentUrl();
+        title = driver.getTitle();
+        url = driver.getCurrentUrl();
         verifyContains(title, url);
 
         driver.quit();
 
 
     }
-    public static void verifyContains(String title, String url){
-        title = title.replaceAll(" ","").toLowerCase();
-        if (url.contains(title)){
+
+    public static void verifyContains(String title, String url) {
+        title = title.replaceAll(" ", "").toLowerCase();
+        if (url.contains(title)) {
             System.out.println("Pass");
+            System.out.println("title = " + title);
+            System.out.println("url = " + url);
         } else {
             System.out.println("Fail");
+            System.out.println("title = " + title);
+            System.out.println("url = " + url);
         }
     }
 }
