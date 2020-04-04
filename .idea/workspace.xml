@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdcd48b7-6067-4815-a1ae-4f1bd43e6cea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbt/tests/TitleVerification2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/TitleVerification2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Yx708uRIDBVwAWzvJEhaulJkgE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -51,9 +52,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TitleVerification3">
-    <configuration name="NavigationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.NavigationTests" />
+  <component name="RunManager" selected="TestNG.locators_hmwr">
+    <configuration name="locators_hmwr" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
@@ -61,12 +61,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cbt.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.locators_hmwr" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitleVerification2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.TitleVerification2" />
+    <configuration name="locators_hmwr.VytrackShortcutFunctionalitTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
@@ -74,12 +78,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cbt.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.locators_hmwr" />
+      <option name="METHOD_NAME" value="VytrackShortcutFunctionalitTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitleVerification3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.TitleVerification3" />
+    <configuration name="locators_hmwr.ebayTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
@@ -87,12 +96,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cbt.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.locators_hmwr" />
+      <option name="METHOD_NAME" value="ebayTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitleVerificationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.TitleVerificationTests" />
+    <configuration name="locators_hmwr.etsyTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
@@ -100,16 +114,41 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cbt.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.locators_hmwr" />
+      <option name="METHOD_NAME" value="etsyTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="locators_hmwr.vytrackTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicNavigationTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cbt.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cbt.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.locators_hmwr" />
+      <option name="METHOD_NAME" value="vytrackTitleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TitleVerification3" />
-        <item itemvalue="Application.TitleVerification2" />
-        <item itemvalue="Application.TitleVerificationTests" />
-        <item itemvalue="Application.NavigationTests" />
+        <item itemvalue="TestNG.locators_hmwr" />
+        <item itemvalue="TestNG.locators_hmwr.VytrackShortcutFunctionalitTest" />
+        <item itemvalue="TestNG.locators_hmwr.vytrackTitleTest" />
+        <item itemvalue="TestNG.locators_hmwr.ebayTest" />
+        <item itemvalue="TestNG.locators_hmwr.etsyTest" />
       </list>
     </recent_temporary>
   </component>
