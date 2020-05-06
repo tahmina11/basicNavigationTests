@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cdcd48b7-6067-4815-a1ae-4f1bd43e6cea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbt/tests/NavigationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbt/tests/TitleVerification2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbt/tests/TitleVerification3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbt/tests/TitleVerificationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbt/tests/locators_hmwr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/hmwr3/locators_hmwr.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Olympics.defaultSortTest">
+  <component name="RunManager" selected="TestNG.locators_hmwr.googleTest">
     <configuration name="Olympics" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
@@ -127,17 +122,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="locators_hmwr.vytrackTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="locators_hmwr.googleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cbt.tests.hmwr1.*" />
+          <option name="PATTERN" value="com.cbt.tests.hmwr3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cbt.tests" />
+      <option name="PACKAGE_NAME" value="com.cbt.tests.hmwr3" />
       <option name="MAIN_CLASS_NAME" value="com.cbt.tests.hmwr3.locators_hmwr" />
-      <option name="METHOD_NAME" value="vytrackTitleTest" />
+      <option name="METHOD_NAME" value="googleTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.locators_hmwr.googleTest" />
         <item itemvalue="TestNG.Olympics.defaultSortTest" />
         <item itemvalue="TestNG.Olympics" />
         <item itemvalue="TestNG.locators_hmwr" />
         <item itemvalue="TestNG.locators_hmwr.VytrackShortcutFunctionalitTest" />
-        <item itemvalue="TestNG.locators_hmwr.vytrackTitleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +161,14 @@
       <option name="presentableId" value="Default" />
       <updated>1583872165159</updated>
     </task>
+    <task id="LOCAL-00001" summary="hmwr3">
+      <created>1586889914594</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586889914595</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,5 +183,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hmwr3" />
+    <option name="LAST_COMMIT_MESSAGE" value="hmwr3" />
   </component>
 </project>
