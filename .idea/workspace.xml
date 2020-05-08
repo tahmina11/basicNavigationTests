@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdcd48b7-6067-4815-a1ae-4f1bd43e6cea" name="Default Changelist" comment="">
+    <list default="true" id="cdcd48b7-6067-4815-a1ae-4f1bd43e6cea" name="Default Changelist" comment="hmwr3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbt/tests/hmwr4/FirstFromBottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/hmwr4/FirstFromBottom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbt/tests/hmwr4/Olympics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/hmwr4/Olympics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbt/utilities/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cbt/utilities/BrowserFactory.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +25,6 @@
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -32,6 +33,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -39,29 +43,17 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="TestNG.locators_hmwr.googleTest">
-    <configuration name="Olympics" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.FirstFromBottom (3)">
+    <configuration name="FirstFromBottom (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cbt.tests.hmwr1.*" />
+          <option name="PATTERN" value="com.cbt.tests.hmwr4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cbt.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.hmwr4.Olympics" />
+      <option name="PACKAGE_NAME" value="com.cbt.tests.hmwr4" />
+      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.hmwr4.FirstFromBottom" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -69,34 +61,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Olympics.defaultSortTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstFromBottom (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cbt.tests.hmwr1.*" />
+          <option name="PATTERN" value="com.cbt.tests.hmwr4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cbt.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.hmwr4.Olympics" />
-      <option name="METHOD_NAME" value="defaultSortTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="locators_hmwr" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BasicNavigationTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cbt.tests.hmwr1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cbt.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.hmwr3.locators_hmwr" />
+      <option name="PACKAGE_NAME" value="com.cbt.tests.hmwr4" />
+      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.hmwr4.FirstFromBottom" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -104,35 +78,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="locators_hmwr.VytrackShortcutFunctionalitTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstFromBottom (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cbt.tests.hmwr1.*" />
+          <option name="PATTERN" value="com.cbt.tests.hmwr4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cbt.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.hmwr3.locators_hmwr" />
-      <option name="METHOD_NAME" value="VytrackShortcutFunctionalitTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.cbt.tests.hmwr4" />
+      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.hmwr4.FirstFromBottom" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="locators_hmwr.googleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstFromBottom" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cbt.tests.hmwr3.*" />
+          <option name="PATTERN" value="com.cbt.tests.hmwr4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cbt.tests.hmwr3" />
-      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.hmwr3.locators_hmwr" />
-      <option name="METHOD_NAME" value="googleTest" />
+      <option name="PACKAGE_NAME" value="com.cbt.tests.hmwr4" />
+      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.hmwr4.FirstFromBottom" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstFromBottom.firstFromTheBottom" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicNavigationTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cbt.tests.hmwr4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cbt.tests.hmwr4" />
+      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.hmwr4.FirstFromBottom" />
+      <option name="METHOD_NAME" value="firstFromTheBottom" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.locators_hmwr.googleTest" />
-        <item itemvalue="TestNG.Olympics.defaultSortTest" />
-        <item itemvalue="TestNG.Olympics" />
-        <item itemvalue="TestNG.locators_hmwr" />
-        <item itemvalue="TestNG.locators_hmwr.VytrackShortcutFunctionalitTest" />
+        <item itemvalue="TestNG.FirstFromBottom (3)" />
+        <item itemvalue="TestNG.FirstFromBottom (2)" />
+        <item itemvalue="TestNG.FirstFromBottom.firstFromTheBottom" />
+        <item itemvalue="TestNG.FirstFromBottom (1)" />
+        <item itemvalue="TestNG.FirstFromBottom" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586889914595</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hmwr3">
+      <created>1588797133791</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588797133791</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,16 +173,69 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hmwr3" />
     <option name="LAST_COMMIT_MESSAGE" value="hmwr3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="591" y="0" key="CommitChangelistDialog2" timestamp="1588797174792">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="591" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1588797174792" />
+    <state width="680" height="202" key="GridCell.Tab.0.bottom" timestamp="1588910724876">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="680" height="202" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1588910724876" />
+    <state width="680" height="202" key="GridCell.Tab.0.center" timestamp="1588910724872">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="680" height="202" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1588910724872" />
+    <state width="680" height="202" key="GridCell.Tab.0.left" timestamp="1588910724870">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="680" height="202" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1588910724870" />
+    <state width="680" height="202" key="GridCell.Tab.0.right" timestamp="1588910724873">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="680" height="202" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1588910724873" />
+    <state width="680" height="250" key="GridCell.Tab.1.bottom" timestamp="1588890037531">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="680" height="250" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1588890037531" />
+    <state width="680" height="250" key="GridCell.Tab.1.center" timestamp="1588890037527">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="680" height="250" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1588890037527" />
+    <state width="680" height="250" key="GridCell.Tab.1.left" timestamp="1588890037526">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="680" height="250" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1588890037526" />
+    <state width="680" height="250" key="GridCell.Tab.1.right" timestamp="1588890037528">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="680" height="250" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1588890037528" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/cbt/tests/hmwr4/FirstFromBottom.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/cbt/tests/hmwr4/FirstFromBottom.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

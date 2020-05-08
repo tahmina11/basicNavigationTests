@@ -26,7 +26,7 @@ public class Olympics {
 
 
     @Test
-    public void defaultSortTest() {
+    public void defaultSortTest() throws InterruptedException {
         driver.get("https://en.wikipedia.org/wiki/2016_Summer_Olympics#Medal_table");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -44,7 +44,7 @@ public class Olympics {
         boolean countriesIsSorted = Ordering.natural().isOrdered(ListConverter.convertElements(countries));
         Assert.assertTrue(countriesIsSorted);
         list = driver.findElements(By.xpath("//table[@class='wikitable sortable plainrowheaders jquery-tablesorter']/tbody/tr/td[1]"));
-       nums.clear();
+        nums.clear();
         for (int i = 0; i < list.size() - 2; i++) {
             nums.add(list.get(i).getText());
         }
